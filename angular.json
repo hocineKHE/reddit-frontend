@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-reddit-clone"
+    }
+  },
+  "defaultProject": "angular-reddit-clone",
+  "cli": {
+    "analytics": "7101e6e5-98f8-4082-9334-e42d197b3cfb"
+  }
 }
